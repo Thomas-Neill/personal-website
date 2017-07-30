@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+canvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+}
+#textbox {
+  width: 30vw;
+  margin: 10vh auto 0 auto;
+  background: rgba(200,200,255,0.3);
+  padding: 5vh 2vw ;
+}
+h1 {
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 300%;
+  color: rgba(0,0,100,0.5);
+}
+p,ul {
+  font-family: 'Asar', serif;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+}
